@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['function','deploy','hello-world-cb','--source=.','--trigger-http','--runtime=python38',
+  args: ['functions','deploy','hello-world-cb','--source=.','--trigger-http','--runtime=python38',
         '--allow-unauthenticated']
 
